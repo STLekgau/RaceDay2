@@ -92,7 +92,7 @@ namespace RaceDay2.Controllers
                 return StatusCode(500, new
                 {
                     Message = "A database error occurred during registration.",
-                    Detail = ex.Message   // TEMPORARY: remove after debugging
+                    
                 });
             }
         }
